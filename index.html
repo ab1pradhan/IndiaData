@@ -1,0 +1,46 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Terrorist Attacks</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href ="style.css">
+	    <script src="http://d3js.org/d3.v3.min.js"></script>
+	    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+	    
+
+	</head>
+	
+	<body>
+        
+		
+
+        <h2>Select a Dataset:</h2>
+
+       <div id='AttackBtn'></div> 
+
+        <h2>Then Select a Subject:</h2>
+        
+        <div id='TargetBtn'></div>
+    
+        <div id='mychart'></div>
+
+
+		<div>
+		</div>
+
+
+		<div>
+		</div>
+		 <script src="script.js" type="text/javascript">
+      
+
+      </script>
+
+        
+        <script type="text/javascript">
+					d3.csv("indiadataCopy.csv", draw);
+			  </script>
+	</body>
+
+</html>
