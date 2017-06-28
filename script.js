@@ -29,7 +29,7 @@
    
       d3.select('body')
         .append('h2')
-        .text('WORLD CUP ATTENDANCE')
+        .text('Terrorists  Attacks')
 
       var svg = d3.select("body")
             .append("svg")
@@ -47,7 +47,7 @@
           var x = myChart.addCategoryAxis("x", "Year"); 
           
           var y = myChart.addMeasureAxis("y", "count");
-          myChart.addSeries(null, dimple.plot.bar);
+          myChart.addSeries(null, dimple.plot.line);
           
           
           myChart.draw();
